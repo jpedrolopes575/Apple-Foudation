@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE866DE62AC745EE00DB3374 /* HoraDeAventura02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE866DE52AC745EE00DB3374 /* HoraDeAventura02App.swift */; };
+		CE866DE82AC745EE00DB3374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE866DE72AC745EE00DB3374 /* ContentView.swift */; };
+		CE866DEA2AC745EF00DB3374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE866DE92AC745EF00DB3374 /* Assets.xcassets */; };
+		CE866DED2AC745EF00DB3374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE866DEC2AC745EF00DB3374 /* Preview Assets.xcassets */; };
+		CE866DF92AC7475300DB3374 /* EstrelaStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE866DF82AC7475300DB3374 /* EstrelaStyle.swift */; };
+		CE866DFE2AC748C100DB3374 /* Estrela.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE866DFD2AC748C100DB3374 /* Estrela.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE866DE22AC745EE00DB3374 /* HoraDeAventura02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoraDeAventura02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE866DE52AC745EE00DB3374 /* HoraDeAventura02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoraDeAventura02App.swift; sourceTree = "<group>"; };
+		CE866DE72AC745EE00DB3374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE866DE92AC745EF00DB3374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE866DEC2AC745EF00DB3374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE866DF82AC7475300DB3374 /* EstrelaStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstrelaStyle.swift; sourceTree = "<group>"; };
+		CE866DFD2AC748C100DB3374 /* Estrela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estrela.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE866DDF2AC745EE00DB3374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE866DD92AC745EE00DB3374 = {
+			isa = PBXGroup;
+			children = (
+				CE866DE42AC745EE00DB3374 /* HoraDeAventura02 */,
+				CE866DE32AC745EE00DB3374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE866DE32AC745EE00DB3374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE866DE22AC745EE00DB3374 /* HoraDeAventura02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE866DE42AC745EE00DB3374 /* HoraDeAventura02 */ = {
+			isa = PBXGroup;
+			children = (
+				CE866DF32AC7466200DB3374 /* Utils */,
+				CE866DE52AC745EE00DB3374 /* HoraDeAventura02App.swift */,
+				CE866DE72AC745EE00DB3374 /* ContentView.swift */,
+				CE866DE92AC745EF00DB3374 /* Assets.xcassets */,
+				CE866DEB2AC745EF00DB3374 /* Preview Content */,
+			);
+			path = HoraDeAventura02;
+			sourceTree = "<group>";
+		};
+		CE866DEB2AC745EF00DB3374 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE866DEC2AC745EF00DB3374 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE866DF32AC7466200DB3374 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE866DFA2AC747C400DB3374 /* Modifiers */,
+				CE866DF72AC746A700DB3374 /* Layouts */,
+				CE866DF62AC7469000DB3374 /* Styles */,
+				CE866DF42AC7467200DB3374 /* Components */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE866DF42AC7467200DB3374 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE866DF62AC7469000DB3374 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CE866DF82AC7475300DB3374 /* EstrelaStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		CE866DF72AC746A700DB3374 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		CE866DFA2AC747C400DB3374 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CE866DFD2AC748C100DB3374 /* Estrela.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE866DE12AC745EE00DB3374 /* HoraDeAventura02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE866DF02AC745EF00DB3374 /* Build configuration list for PBXNativeTarget "HoraDeAventura02" */;
+			buildPhases = (
+				CE866DDE2AC745EE00DB3374 /* Sources */,
+				CE866DDF2AC745EE00DB3374 /* Frameworks */,
+				CE866DE02AC745EE00DB3374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoraDeAventura02;
+			productName = HoraDeAventura02;
+			productReference = CE866DE22AC745EE00DB3374 /* HoraDeAventura02.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE866DDA2AC745EE00DB3374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE866DE12AC745EE00DB3374 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE866DDD2AC745EE00DB3374 /* Build configuration list for PBXProject "HoraDeAventura02" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE866DD92AC745EE00DB3374;
+			productRefGroup = CE866DE32AC745EE00DB3374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE866DE12AC745EE00DB3374 /* HoraDeAventura02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE866DE02AC745EE00DB3374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE866DED2AC745EF00DB3374 /* Preview Assets.xcassets in Resources */,
+				CE866DEA2AC745EF00DB3374 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE866DDE2AC745EE00DB3374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE866DE82AC745EE00DB3374 /* ContentView.swift in Sources */,
+				CE866DE62AC745EE00DB3374 /* HoraDeAventura02App.swift in Sources */,
+				CE866DFE2AC748C100DB3374 /* Estrela.swift in Sources */,
+				CE866DF92AC7475300DB3374 /* EstrelaStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE866DEE2AC745EF00DB3374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE866DEF2AC745EF00DB3374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE866DF12AC745EF00DB3374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoraDeAventura02/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.HoraDeAventura02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE866DF22AC745EF00DB3374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoraDeAventura02/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.HoraDeAventura02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE866DDD2AC745EE00DB3374 /* Build configuration list for PBXProject "HoraDeAventura02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE866DEE2AC745EF00DB3374 /* Debug */,
+				CE866DEF2AC745EF00DB3374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE866DF02AC745EF00DB3374 /* Build configuration list for PBXNativeTarget "HoraDeAventura02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE866DF12AC745EF00DB3374 /* Debug */,
+				CE866DF22AC745EF00DB3374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE866DDA2AC745EE00DB3374 /* Project object */;
+}
