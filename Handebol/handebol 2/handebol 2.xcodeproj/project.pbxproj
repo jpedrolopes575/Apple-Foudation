@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE28304A2AB4FA30004973F4 /* handebol_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2830492AB4FA30004973F4 /* handebol_2App.swift */; };
+		CE28304C2AB4FA30004973F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28304B2AB4FA30004973F4 /* ContentView.swift */; };
+		CE28304E2AB4FA30004973F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE28304D2AB4FA30004973F4 /* Assets.xcassets */; };
+		CE2830512AB4FA30004973F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2830502AB4FA30004973F4 /* Preview Assets.xcassets */; };
+		CE28305B2AB4FA30004973F4 /* handebol_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28305A2AB4FA30004973F4 /* handebol_2Tests.swift */; };
+		CE2830652AB4FA30004973F4 /* handebol_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2830642AB4FA30004973F4 /* handebol_2UITests.swift */; };
+		CE2830672AB4FA30004973F4 /* handebol_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2830662AB4FA30004973F4 /* handebol_2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2830572AB4FA30004973F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28303E2AB4FA30004973F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2830452AB4FA30004973F4;
+			remoteInfo = "handebol 2";
+		};
+		CE2830612AB4FA30004973F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE28303E2AB4FA30004973F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2830452AB4FA30004973F4;
+			remoteInfo = "handebol 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2830462AB4FA30004973F4 /* handebol 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handebol 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2830492AB4FA30004973F4 /* handebol_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handebol_2App.swift; sourceTree = "<group>"; };
+		CE28304B2AB4FA30004973F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE28304D2AB4FA30004973F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2830502AB4FA30004973F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE2830562AB4FA30004973F4 /* handebol 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "handebol 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE28305A2AB4FA30004973F4 /* handebol_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handebol_2Tests.swift; sourceTree = "<group>"; };
+		CE2830602AB4FA30004973F4 /* handebol 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "handebol 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2830642AB4FA30004973F4 /* handebol_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handebol_2UITests.swift; sourceTree = "<group>"; };
+		CE2830662AB4FA30004973F4 /* handebol_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handebol_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2830432AB4FA30004973F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2830532AB4FA30004973F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE28305D2AB4FA30004973F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE28303D2AB4FA30004973F4 = {
+			isa = PBXGroup;
+			children = (
+				CE2830482AB4FA30004973F4 /* handebol 2 */,
+				CE2830592AB4FA30004973F4 /* handebol 2Tests */,
+				CE2830632AB4FA30004973F4 /* handebol 2UITests */,
+				CE2830472AB4FA30004973F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2830472AB4FA30004973F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2830462AB4FA30004973F4 /* handebol 2.app */,
+				CE2830562AB4FA30004973F4 /* handebol 2Tests.xctest */,
+				CE2830602AB4FA30004973F4 /* handebol 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2830482AB4FA30004973F4 /* handebol 2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE2830492AB4FA30004973F4 /* handebol_2App.swift */,
+				CE28304B2AB4FA30004973F4 /* ContentView.swift */,
+				CE28304D2AB4FA30004973F4 /* Assets.xcassets */,
+				CE28304F2AB4FA30004973F4 /* Preview Content */,
+			);
+			path = "handebol 2";
+			sourceTree = "<group>";
+		};
+		CE28304F2AB4FA30004973F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE2830502AB4FA30004973F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE2830592AB4FA30004973F4 /* handebol 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE28305A2AB4FA30004973F4 /* handebol_2Tests.swift */,
+			);
+			path = "handebol 2Tests";
+			sourceTree = "<group>";
+		};
+		CE2830632AB4FA30004973F4 /* handebol 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2830642AB4FA30004973F4 /* handebol_2UITests.swift */,
+				CE2830662AB4FA30004973F4 /* handebol_2UITestsLaunchTests.swift */,
+			);
+			path = "handebol 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2830452AB4FA30004973F4 /* handebol 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE28306A2AB4FA30004973F4 /* Build configuration list for PBXNativeTarget "handebol 2" */;
+			buildPhases = (
+				CE2830422AB4FA30004973F4 /* Sources */,
+				CE2830432AB4FA30004973F4 /* Frameworks */,
+				CE2830442AB4FA30004973F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "handebol 2";
+			productName = "handebol 2";
+			productReference = CE2830462AB4FA30004973F4 /* handebol 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2830552AB4FA30004973F4 /* handebol 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE28306D2AB4FA30004973F4 /* Build configuration list for PBXNativeTarget "handebol 2Tests" */;
+			buildPhases = (
+				CE2830522AB4FA30004973F4 /* Sources */,
+				CE2830532AB4FA30004973F4 /* Frameworks */,
+				CE2830542AB4FA30004973F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2830582AB4FA30004973F4 /* PBXTargetDependency */,
+			);
+			name = "handebol 2Tests";
+			productName = "handebol 2Tests";
+			productReference = CE2830562AB4FA30004973F4 /* handebol 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE28305F2AB4FA30004973F4 /* handebol 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2830702AB4FA30004973F4 /* Build configuration list for PBXNativeTarget "handebol 2UITests" */;
+			buildPhases = (
+				CE28305C2AB4FA30004973F4 /* Sources */,
+				CE28305D2AB4FA30004973F4 /* Frameworks */,
+				CE28305E2AB4FA30004973F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2830622AB4FA30004973F4 /* PBXTargetDependency */,
+			);
+			name = "handebol 2UITests";
+			productName = "handebol 2UITests";
+			productReference = CE2830602AB4FA30004973F4 /* handebol 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE28303E2AB4FA30004973F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE2830452AB4FA30004973F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CE2830552AB4FA30004973F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE2830452AB4FA30004973F4;
+					};
+					CE28305F2AB4FA30004973F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE2830452AB4FA30004973F4;
+					};
+				};
+			};
+			buildConfigurationList = CE2830412AB4FA30004973F4 /* Build configuration list for PBXProject "handebol 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE28303D2AB4FA30004973F4;
+			productRefGroup = CE2830472AB4FA30004973F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2830452AB4FA30004973F4 /* handebol 2 */,
+				CE2830552AB4FA30004973F4 /* handebol 2Tests */,
+				CE28305F2AB4FA30004973F4 /* handebol 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2830442AB4FA30004973F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2830512AB4FA30004973F4 /* Preview Assets.xcassets in Resources */,
+				CE28304E2AB4FA30004973F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2830542AB4FA30004973F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE28305E2AB4FA30004973F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2830422AB4FA30004973F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28304C2AB4FA30004973F4 /* ContentView.swift in Sources */,
+				CE28304A2AB4FA30004973F4 /* handebol_2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2830522AB4FA30004973F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28305B2AB4FA30004973F4 /* handebol_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE28305C2AB4FA30004973F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2830672AB4FA30004973F4 /* handebol_2UITestsLaunchTests.swift in Sources */,
+				CE2830652AB4FA30004973F4 /* handebol_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2830582AB4FA30004973F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2830452AB4FA30004973F4 /* handebol 2 */;
+			targetProxy = CE2830572AB4FA30004973F4 /* PBXContainerItemProxy */;
+		};
+		CE2830622AB4FA30004973F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2830452AB4FA30004973F4 /* handebol 2 */;
+			targetProxy = CE2830612AB4FA30004973F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE2830682AB4FA30004973F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2830692AB4FA30004973F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE28306B2AB4FA30004973F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"handebol 2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jp.handebol-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE28306C2AB4FA30004973F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"handebol 2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jp.handebol-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE28306E2AB4FA30004973F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jp.handebol-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handebol 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/handebol 2";
+			};
+			name = Debug;
+		};
+		CE28306F2AB4FA30004973F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jp.handebol-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handebol 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/handebol 2";
+			};
+			name = Release;
+		};
+		CE2830712AB4FA30004973F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jp.handebol-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "handebol 2";
+			};
+			name = Debug;
+		};
+		CE2830722AB4FA30004973F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jp.handebol-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "handebol 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2830412AB4FA30004973F4 /* Build configuration list for PBXProject "handebol 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2830682AB4FA30004973F4 /* Debug */,
+				CE2830692AB4FA30004973F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE28306A2AB4FA30004973F4 /* Build configuration list for PBXNativeTarget "handebol 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE28306B2AB4FA30004973F4 /* Debug */,
+				CE28306C2AB4FA30004973F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE28306D2AB4FA30004973F4 /* Build configuration list for PBXNativeTarget "handebol 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE28306E2AB4FA30004973F4 /* Debug */,
+				CE28306F2AB4FA30004973F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2830702AB4FA30004973F4 /* Build configuration list for PBXNativeTarget "handebol 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2830712AB4FA30004973F4 /* Debug */,
+				CE2830722AB4FA30004973F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE28303E2AB4FA30004973F4 /* Project object */;
+}
